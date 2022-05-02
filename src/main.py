@@ -1,4 +1,5 @@
-nums = [12, 54, -21, 113]
+nums = [1, 22, 35, -21, 45, 16, 18]
 for num in nums:
-   if num > 0:
-     print(num)
+   if num % 2 == 0:
+      continue
+   print(num)

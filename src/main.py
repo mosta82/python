@@ -1,2 +1,4 @@
-friends = [ "BatMan", "FatMan", "Rat Man"]
-print ("Monkey Man" in friends)
+basket = ["Apple", "Orange", "Strawberry", "Banana"]
+
+for fruit in basket:
+   print(fruit)

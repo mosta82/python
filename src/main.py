@@ -1,8 +1,7 @@
-i = 1
-sum = 0
-while i <= 5:
-   if i%2 == 0:
-      sum = sum + i
-   i = i+1
+count = 0
 
-print(sum)
+while count <15:
+   if count == 5:
+      break
+   print(count)
+   count += 1

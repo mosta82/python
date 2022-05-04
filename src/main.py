@@ -1,5 +1,7 @@
-def add(a, b):
-   return a + b
+def add (a,b):
+    return a + b
 
-sum = add(13, 65)
-print(sum)
+x = add(2,3)
+y = add(4,5)
+z = add(x, y)
+print(z)

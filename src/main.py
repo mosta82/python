@@ -1,5 +1,5 @@
-def add_numbers(first, second):
-   sum = first + second
-   print(sum)
+def add(a, b):
+   return a + b
 
-add_numbers(13, 53)
+sum = add(13, 65)
+print(sum)

@@ -1,18 +1,8 @@
-def is_odd(num):
-    if num % 2 == 0:
-        return False
-    else:
-        return True
+def factorial(num):
+   fact = 1
+   while num > 0:
+      fact = fact * num
+      num = num -1
+   return fact
 
-
-def evenify(num):
-    check_odd = is_odd(num)
-    if check_odd == True:
-        even_num = num * 2
-    else:
-        even_num = num
-    return even_num
-
-    
-result = evenify( 3)
-print(result)
+print(factorial(4))

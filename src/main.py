@@ -1,8 +1,9 @@
-def factorial(num):
-   fact = 1
-   while num > 0:
-      fact = fact * num
-      num = num -1
-   return fact
+text = 'Love to watching Movie'
+count = 0
+for char in text:
+   if char == ' ':
+       count = count + 1
+#add one for the last word
+count = count + 1
 
-print(factorial(4))
+print(count)

@@ -1,9 +1,9 @@
-text = 'Love to watching Movie'
-count = 0
-for char in text:
-   if char == ' ':
-       count = count + 1
-#add one for the last word
-count = count + 1
+def count_vowels(sentence):
+  count = 0
+  vowels = ['a','e','i','o','u','A','E','I','O','U']
+  for char in sentence:
+     if char in vowels:
+        count += 1
+  return count
 
-print(count)
+print(count_vowels("Hello World"))

@@ -1,9 +1,9 @@
-def count_vowels(sentence):
-  count = 0
-  vowels = ['a','e','i','o','u','A','E','I','O','U']
-  for char in sentence:
-     if char in vowels:
-        count += 1
-  return count
+def remove_duplicate(items):
+    unique = []
+    for item in items:
+        if item not in unique:
+            unique.append(item)
+    return unique
 
-print(count_vowels("Hello World"))
+numbers = [22,11,3,1,4,5,5,2,2,11,66,89]
+print(remove_duplicate(numbers))

@@ -1,9 +1,11 @@
-def fibonacci(num):
-  fibo = [0,1]
-  i = 2
-  while i<= num:
-     next_fibo = fibo[i-1] + fibo[i-2]
-     fibo.append(next_fibo)
-     i += 1
-  return fibo
-print(fibonacci(9))
+def mergeList(first, second):
+    combined = first + second
+    combined.sort()
+    return combined
+
+
+# call the function    
+group1 = [11,13,18,17,56]
+group2 = [12,15,19,43,66]
+merged = mergeList(group1, group2)
+print(merged)

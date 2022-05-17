@@ -1,11 +1,8 @@
-def mergeList(first, second):
-    combined = first + second
-    combined.sort()
-    return combined
+def multiplication_table(n):
+    i = 1
+    while i <= 10:
+        print(i, 'X', n, '= ', i*n)
+        i += 1
 
-
-# call the function    
-group1 = [11,13,18,17,56]
-group2 = [12,15,19,43,66]
-merged = mergeList(group1, group2)
-print(merged)
+        
+multiplication_table(5)

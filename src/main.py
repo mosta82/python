@@ -1,8 +1,5 @@
-def multiplication_table(n):
-    i = 1
-    while i <= 10:
-        print(i, 'X', n, '= ', i*n)
-        i += 1
-
-        
-multiplication_table(5)
+nums = [21,13, 47, -5]
+nums.append(101)
+nums.append(75)
+nums.remove(13)
+print(nums)

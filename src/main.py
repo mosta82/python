@@ -1,6 +1,6 @@
-nums = [-12, 54, -21, 113]
-
-for num in nums:
-    if num < 0:
-        continue
-    print(num)
+i = 1
+sum = 0
+while i <= 10:
+    sum = sum + i
+    i = i + 1
+print (sum)

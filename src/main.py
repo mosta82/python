@@ -1,7 +1,7 @@
-int_num = int(input('Give me an integer number: '))
+base_num = int(input('Give me the base number: '))
 
-float_num = float(input('Give me a float  number: '))
+power_num = int(input('Give me the power number: '))
 
-result = int_num * float_num
+result = base_num ** power_num
 
 print('Your result is: ', result)

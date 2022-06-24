@@ -1,7 +1,4 @@
-base_num = int(input('Give me the base number: '))
+import random
 
-power_num = int(input('Give me the power number: '))
-
-result = pow(base_num, power_num)
-
-print('Your result is: ', result)
+random_num = random.randint(0,10)
+print(random_num)

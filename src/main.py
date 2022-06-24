@@ -1,4 +1,5 @@
-import random
-
-random_num = random.randint(0,10)
-print(random_num)
+num1 = int(input('Enter the first number: '))
+num2 = int(input('Enter the second number: '))
+ 
+result = num1//num2
+print(result)

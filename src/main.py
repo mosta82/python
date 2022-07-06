@@ -1,7 +1,6 @@
-num1 = int(input("First number: "))
-num2 = int(input("Second number: "))
-if (num2 >= num1):
-    largest = num2
-else:
-    largest = num1
-print("Largest number you entered is: ", largest)
+numb = int(input("How many numbers do you have: "))
+numbers =[]
+while len(numbers) < numb:
+       no = int(input("Give me your number: "))
+       numbers.append(no)  
+print(sum(numbers)/numb)
